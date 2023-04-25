@@ -90,26 +90,6 @@ export default t
   .getConfig();
 ```
 
-Organization.fixture.ts
-```ts
-export default t
-  .buildFixture(Organization)
-  .addItem('organization1', {
-    id: 'organizationId-1',
-    name: 'Organization 1',
-  })
-    .addItem('organization2', {
-    id: 'organizationId-2',
-    name: 'Organization 2',
-  })
-  .addItem('organization3', {
-    id: 'organizationId-3',
-    name: 'Organization 3',
-  })
-  .getConfig();
-```
-
-
 User.fixture.ts
 ```ts
 import OrganizationFixture from "./Organization.fixture.ts"
