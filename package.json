@@ -1,0 +1,16 @@
+{
+  "name": "typescript-fixture-cli-utils",
+  "version": "0.0.1",
+  "description": "Utility functions for typescript-fixtures-cli",
+  "main": "src/index.ts",
+  "repository": "https://github.com/ladislasdellinger/typescript-fixture-cli-utils.git",
+  "author": "Ladislas Dellinger <111739019+ladislasdellinger@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "typeorm": "^0.3.15",
+    "typeorm-fixtures-cli": "^3.1.0"
+  }
+}
