@@ -40,7 +40,7 @@ export default t
 `typeorm-fixtures-cli` allows to reference other fixtures using `@ + key of the item`.
 This package provide a utility function `refTo` to add type safety and intellisense for these reference:
 
-User.ts
+Organization.ts
 ```ts
 @Entity('organization')
 class Organization{
